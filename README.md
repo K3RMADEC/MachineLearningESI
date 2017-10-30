@@ -10,7 +10,7 @@ This repository is used for student jobs of the asignature Machine Learning, the
 The scripts in this repository are encoded with Python 2.7.
 
 ---------------------------------------------------------------
-Faculty of Computer Science
+Faculty of Computer Science <br>
 University of Castilla-La Mancha, Spain.
 
 
