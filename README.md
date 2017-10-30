@@ -8,7 +8,12 @@ This repository is used for student jobs of the asignature Machine Learning, the
 
 ## Software
 The scripts in this repository are encoded with Python 2.7.
-
+Libraries needed for this project:
+* Numpy
+* Scipy
+* Pylab
+* Matplotlib
+* Sklearn
 ---------------------------------------------------------------
 Faculty of Computer Science <br>
 University of Castilla-La Mancha, Spain.
