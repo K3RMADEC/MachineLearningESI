@@ -1,4 +1,7 @@
+# Activity 1. Principal Component Analysis
+
 ## Correlation among features
+
 The observed correlations are due to the fact that there are climatic characteristics that are measured twice. In addition, we can find obvious relationships, for example, the maximum, minimum and average temperature.
 ![Correlation among features](correlation.png)
 
