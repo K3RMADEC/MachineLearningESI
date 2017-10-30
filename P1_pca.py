@@ -3,7 +3,7 @@
 """
 Created on Wed Oct 11 17:55:12 2017
 
-@author: manblack23
+@author: Sergio.Alises and Raul.Gallego
 """
 import codecs
 import matplotlib.pyplot as plt
@@ -24,7 +24,7 @@ for line in f:
         row.pop(0)
         row.pop(0)
         if row != []:
-            data = [int(el) for el in row]
+            data = [float(el) for el in row]
             states.append(data)
     count += 1
     
@@ -35,16 +35,17 @@ states = min_max_scaler.fit_transform(states)
 #2. PCA Estimation
 estimator = PCA (n_components = 2)
 X_pca = estimator.fit_transform(states)
-
 print(estimator.explained_variance_ratio_) 
 
 #3.  plot 
 numbers = numpy.arange(len(X_pca))
 fig, ax = plt.subplots()
 for i in range(len(X_pca)):
-    plt.text(X_pca[i][0], X_pca[i][1], numbers[i]) 
+    plt.text(X_pca[i][0], X_pca[i][1], numbers[i])
+    if(X_pca[i][0]>2):
+        print(numbers[i])
 plt.xlim(-1, 4)
-plt.ylim(-1, 1.5)
+plt.ylim(-1, 2)
 ax.grid(True)
 fig.tight_layout()
 plt.show()

@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Nov 10 17:38:16 2015
+Created on Wed Oct 11 17:55:12 2017
 
-@author: FranciscoP.Romero
+@authors: Sergio.Alises and Raul.Gallego
 """
 
 import codecs
@@ -20,7 +20,7 @@ count = 0
 for line in f:
     if count > 0: 
 		# remove double quotes
-        row = line.replace('"', '').split(";")
+        row = line.split(";")
         row.pop(0)
         row.pop(0)
         row.pop(0)
@@ -28,7 +28,6 @@ for line in f:
         if row != []:
 			semana.append(map(float, row))
     count += 1
-
 
 
 
