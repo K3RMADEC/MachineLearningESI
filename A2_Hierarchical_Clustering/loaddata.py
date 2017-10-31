@@ -6,7 +6,7 @@ Created on Mon Mar 14 12:05:59 2016
 
 """
 import codecs
-def load_data_usa(path):
+def load_data(path):
         
     f = codecs.open(path, "r", "utf-8")
     print(f)

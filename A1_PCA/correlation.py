@@ -14,7 +14,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # 0. Load Data
-f = codecs.open("../Data/dengue_features_train_csv.csv", "r", "utf-8")
+f = codecs.open("../Data/dengue_features_train_outliers.csv", "r", "utf-8")
 semana = []
 count = 0
 for line in f:

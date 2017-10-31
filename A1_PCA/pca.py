@@ -12,7 +12,7 @@ from sklearn.decomposition import PCA
 from sklearn import preprocessing 
 
 # 0. Load Data
-f = codecs.open("../Data/dengue_features_train_csv.csv", "r", "utf-8")
+f = codecs.open("../Data/dengue_features_train_outliers.csv", "r", "utf-8")
 states = []
 count = 0
 for line in f:

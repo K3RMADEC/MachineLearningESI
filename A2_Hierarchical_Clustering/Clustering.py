@@ -11,7 +11,7 @@ Created on Tue Oct 17 12:20:16 2017
 
 # 1. Load data
 import loaddata
-data= loaddata.load_data_usa("../Data/dengue_features_train_csv.csv")
+data= loaddata.load_data("../Data/dengue_features_train_outliers.csv")
     
 
 #1. Data normalizazion
