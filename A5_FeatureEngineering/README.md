@@ -56,13 +56,13 @@ We create the regression model with the MSE (Mean Squared Error) criterion and t
 
 Features with more relevance: ['ndvi_se', 'station_min_temp_c']
 
-# Quitos
+# Iquitos
 
 ## Correlation 
 
 We extract the correlation between each feature and label (total_cases).
 
-![Correlation Quitos: Feature - Total cases](corr_iq.png)
+![Correlation Iquitos: Feature - Total cases](corr_iq.png)
 
 The next thing is to select the features with the most correlation (R>0.76):
 
@@ -81,7 +81,7 @@ The next thing is to select the features with the most correlation (R>0.76):
 
 We need to select the best maximun depth, that's why we will execute a loop that creates a decision tree with each value between 2 and 30.
 
-![Cross Validation Quitos](max_depth_iq.png)
+![Cross Validation Iquitos](max_depth_iq.png)
 
 The best maximun depth is 3.
 
@@ -91,7 +91,7 @@ We create the regression model with the MSE (Mean Squared Error) criterion and t
 
 ### Decision Tree
 
-![Decision Tree Quitos](dtquitos.jpg)
+![Decision Tree Iquitos](dtquitos.jpg)
 
 ### Features Relevances
 
